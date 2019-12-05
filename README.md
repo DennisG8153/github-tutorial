@@ -51,7 +51,7 @@ Host github.com
 
 ---
 ## Repository Setup
-
+You should make your rsa 4096/ step 4 black and not purple.
 
 
 ---
