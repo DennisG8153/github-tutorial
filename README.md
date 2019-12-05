@@ -19,7 +19,6 @@ GitHub: Place where coding is stored, specifically git. Github also tracks the c
 4. Type in ssh-keygen -t rsa -b 4096 -C "you@example.com" (**Make sure you keep pressing Enter slowly until you see a werid block of text.)
     - Example: ssh-keygen -t rsa -b 4096 -C "_dennisg8153@hstat.org_"
     - Your screen should post this: The key's randomart image is:
-
 +--[ RSA 4096]----+
 |       .o o..    |
 |       o +Eo     |
@@ -30,7 +29,7 @@ GitHub: Place where coding is stored, specifically git. Github also tracks the c
 |            . = o|
 |           . o   |
 |            o.   |
-+-----------------+ (**Remember, it's different every time!**)
++-----------------+ (**Remember, it's different every time!** Note that it doesn't look like this.)
 5. Do ls -al ~/.ssh (List all files long and looks for ~/.ssh), you should now see a file named *id_rsa.pub*
 6. Do cat ~/.ssh/id_rsa.pub (Opens the thing to a **LOT** of text)
 7. Copy the entire result to your clipboard (it should start with ssh-rsa and end with your email address)
