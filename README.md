@@ -19,6 +19,7 @@ GitHub: Place where coding is stored, specifically git. Github also tracks the c
 4. Type in ssh-keygen -t rsa -b 4096 -C "you@example.com" (**Make sure you keep pressing Enter slowly until you see a werid block of text.)
     - Example: ssh-keygen -t rsa -b 4096 -C "_dennisg8153@hstat.org_"
     - Your screen should post this: The key's randomart image is:
+
 +--[ RSA 4096]----+
 |       .o o..    |
 |       o +Eo     |
